@@ -51,7 +51,7 @@ streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_rows)
 
 streamlit.text('What fruit would you like to add?')
-add_my_fruit =  = streamlit.text_input("Nombre de la fruta:")
+add_my_fruit =  streamlit.text_input("Nombre de la fruta:")
 streamlit.text(add_my_fruit)
 # Display the table on the page.
 
