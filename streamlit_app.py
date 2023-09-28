@@ -1,7 +1,7 @@
 import streamlit
 
 streamlit.title('My parents new healty diner')
-streamlit.title('Breakfast')
+streamlit.header('Breakfast')
 
-streamlit.title('LOl')
-streamlit.title('LUL')
+streamlit.text('LOl')
+streamlit.text('LUL')
