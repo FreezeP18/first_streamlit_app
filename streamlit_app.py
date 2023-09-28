@@ -54,5 +54,5 @@ streamlit.dataframe(my_data_rows)
 add_my_fruit = streamlit.multiselect(":", list(my_fruit_list.index))
 fruits_to_show1 = my_fruit_list.loc[add_my_fruit]
 # Display the table on the page.
-streamlit.dataframe(fruits_to_show1)
+streamlit.text(fruits_to_show1)
 
